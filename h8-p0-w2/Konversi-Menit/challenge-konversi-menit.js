@@ -1,28 +1,23 @@
-# Logic Challenge - Konversi Menit
+// function konversiMenit(menit) {
+//   // you can only write your code here!
+//   const numHour = Math.floor(menit / 60);
+//   let minutes = menit - 60 * numHour;
+//   if (minutes < 10) {
+//     minutes = `0${minutes}`;
+//   }
+//   const time = `${numHour}:${minutes}`;
+//   return time;
+// }
 
-## English
-Diberikan sebuah function : Given a function
-Yang merupakan : which is
-ukuran waktu : measure of time
-akan: will
-dalam format: in the format
-berdasarkan : based on
-menit tersebut: these minutes
-
-## Problem
-
-Diberikan sebuah function konversiMenit(menit) yang 
-menerima satu parameter berupa angka yang merupakan 
-ukuran waktu dalam menit. 
-Function akan me-return string waktu dalam format 
-jam:menit berdasarkan menit tersebut. Contoh, jika menit adalah 63, 
-maka function akan me-return "1:03".
-
-## Code
-
-```JavaScript
+// Intit Minute converter function
 function konversiMenit(menit) {
-  // you can only write your code here!
+  var jam = Math.trunc(menit / 60); // var to contain converted minute to hour var, transformed into whole number
+  var menitSisa = menit % 60; // var to contain remaining minutes not converted to hour
+  var menitSisaStr = String(menitSisa); // var to contain str of menitSisa, changed to string so can detect if there is 2 digit or not
+  if (menitSisaStr.length === 1) {
+    menitSisa = "0" + menitSisa; // add 0 if var is only one digit
+  }
+  return jam + ":" + menitSisa;
 }
 
 // TEST CASES
@@ -31,4 +26,3 @@ console.log(konversiMenit(124)); // 2:04
 console.log(konversiMenit(53)); // 0:53
 console.log(konversiMenit(88)); // 1:28
 console.log(konversiMenit(120)); // 2:00
-```
