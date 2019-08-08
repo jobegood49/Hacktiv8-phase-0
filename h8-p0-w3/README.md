@@ -6,12 +6,14 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 
 ## English
 
-|   Bahasa           | English     |
-| -----------        | ----------- |
-| Header             | Title       |
-| Paragraph          | Text        |
-| Paragraph          | Text        |
-| Paragraph          | Text        |
+|   Bahasa                              | English               |
+| -----------                           | -----------           |
+| Diberukah subuah function             | Given a function      |
+| yang merina                           | That accepts          |
+| function terbesut                     | The function          |
+| akan mengembalikan nilai true         | will return value true|
+| tepat sama                            | exactly same          |
+
 
 
 
