@@ -11,15 +11,15 @@ Diberikan sebuah function hitungJumlahKata(kalimat) yang menerima parameter beru
 | Header | Title |
 | Paragraph | Text |
 
-| Bahasa                        | English                      |
-| --- |---| 
-| Diberikan sebuah function     | Given a fuction              | 
-| hitung Jumlah Kata            | Count number of words        |   
-| yang menerima parameter       | which accepts a paramet      |
-| berupa string                 | form of a string             |                      
-| yang merupakan sebuah kalimat | which is a sentence          |
-| Function akan mengembalik     | function will return         |
-|  jumlah kata dari kalimat tersebut| number of words from sentence        |                              
+| Bahasa                            | English                      |
+| ---                               |---                           | 
+| Diberikan sebuah function         | Given a fuction              | 
+| hitung Jumlah Kata                | Count number of words        |   
+| yang menerima parameter           | which accepts a paramet      |
+| berupa string                     | form of a string             |                   
+| yang merupakan sebuah kalimat     | which is a sentence          |
+| Function akan mengembalik         | function will return         |
+| Jumlah kata dari kalimat tersebut| number of words from sentence |                              
 
 ## Code
 
