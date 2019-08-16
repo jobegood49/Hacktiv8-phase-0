@@ -6,8 +6,13 @@ Diberikan sebuah function hitungJumlahKata(kalimat) yang menerima parameter beru
 
 ## English
 
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 | Bahasa                        | English                      |
-| ----------------------------- |:-------------               :| 
+| --- |---| 
 | Diberikan sebuah function     | Given a fuction              | 
 | hitung Jumlah Kata            | Count number of words        |   
 | yang menerima parameter       | which accepts a paramet      |
@@ -15,11 +20,6 @@ Diberikan sebuah function hitungJumlahKata(kalimat) yang menerima parameter beru
 | yang merupakan sebuah kalimat | which is a sentence          |
 | Function akan mengembalik     | function will return         |
 |  jumlah kata dari kalimat tersebut| number of words from sentence        |                              
-
-
-
-
-
 
 ## Code
 
