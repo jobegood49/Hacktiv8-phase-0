@@ -6,6 +6,12 @@ function hitungJumlahKata(kalimat) {
   return count;
 }
 
+//Add another solution
+// function hitungJumlahKata(kalimat) {
+//   var wordCount = kalimat.split(" "); // words separated every space found
+//   return wordCount.length;
+// }
+
 // TEST CASES
 console.log(hitungJumlahKata("I have a dream")); // 4
 console.log(hitungJumlahKata("Never eat shredded wheat or cake")); // 6
