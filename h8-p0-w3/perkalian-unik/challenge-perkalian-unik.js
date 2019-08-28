@@ -1,12 +1,27 @@
+// function perkalianUnik(arr) {
+//   // you can only write your code here!
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     let bufferArray = arr.filter((num, index) => index !== i);
+//     let product = bufferArray.reduce((a, b) => a * b);
+//     newArr.push(product)
+//   }
+//   return newArr
+// }
+
 function perkalianUnik(arr) {
-  // you can only write your code here!
-  let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    let bufferArray = arr.filter((num, index) => index !== i);
-    let product = bufferArray.reduce((a, b) => a * b);
-    newArr.push(product)
-  }
-  return newArr
+    let resArr = []
+    for(let i = 0; i < arr.length; i++) {
+        let tempArr = 1;
+        for(let j = 0; j < arr.length; j++) {
+            if(j !== i) {
+                tempArr = tempArr * arr[j]
+            }
+        }
+        resArr.push(tempArr)
+    }
+    return resArr
+
 }
 
 // TEST CASES
