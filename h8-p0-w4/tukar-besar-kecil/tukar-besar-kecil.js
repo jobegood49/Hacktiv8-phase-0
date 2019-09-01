@@ -27,13 +27,13 @@
 // }
 
 function tukarBesarKecil(kalimat) {
-    return kalimat.split("").reduce((str, char)=> {
-        return str + (char.toLowerCase() === char ? char.toUpperCase(): char.toLowerCase())
-    },"")
-
+  return kalimat.split("").reduce((str, char) => {
+    return (
+      str +
+      (char.toLowerCase() === char ? char.toUpperCase() : char.toLowerCase())
+    );
+  }, "");
 }
-
-
 
 // TEST CASES
 console.log(tukarBesarKecil("Hello World")); // "hELLO wORLD"
