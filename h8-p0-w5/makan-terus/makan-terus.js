@@ -1,13 +1,17 @@
+// function makanTerusRekursif(waktu) {
+//   // you can only write your code here!
+//   if (waktu < 0 || waktu === 0) return 0;
+
+//   let timeLeft = waktu - 15;
+
+//   return 1 + makanTerusRekursif(timeLeft);
+// }
+
 function makanTerusRekursif(waktu) {
-  // you can only write your code here!
-  if (waktu < 0 || waktu === 0) return 0;
+  if (waktu <= 0) return 0;
 
-  let timeLeft = waktu - 15;
-
-  return 1 + makanTerusRekursif(timeLeft);
+  return 1 + makanTerusRekursif(waktu - 15);
 }
-
-
 
 // TEST CASES
 console.log(makanTerusRekursif(66)); // 5
