@@ -2,6 +2,7 @@
 
 Setelah mengetahui tentang DOM selection dan manipulation, kita akan coba berlatih tentang ini.
 
+
 ## Objectives
 
 - Mengerti Tentang DOM
@@ -37,3 +38,18 @@ Setelah mengetahui tentang DOM selection dan manipulation, kita akan coba berlat
   - `<h1 id="fill-me"></h1>` menjadi `<h1 id="fill-me">HALO!</h1>`
   - `<p className="change-all-of-me"></p>` menjadi `<p className="change-all-of-me">HALO JUGA!</p>`
   - `<h2>Change the Inside of H2!</h2>` menjadi `<h2>Apa Kabar!</h2>`
+
+
+## English
+
+Bahasa                                    | English
+------------                              | -------------
+Setelah mengetahui tentang                | after knowing about
+Bengan melakukan perkalian                | By doing multiplication
+Menjadi satu digit                        | Into one digit
+Bila masih lebih                          | When still more
+Dari satu digit                           | From one digit
+Terus lakukan perkalian setiap digit-nya  | Then keep multiplying each digit
+Untuk pada akhirnya                       | Until finally
+Mendapatkan satu digit                    | Get one digit
+Wajib menggunakan                         | Required to use recursif
